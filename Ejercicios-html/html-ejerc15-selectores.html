@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tipos de selectores que entran en examen</title>
+    <style>
+        
+        .resaltado {
+            color: blue;
+            font-weight: bold;
+        }
+
+        
+        #importante {
+            color: red;
+            font-size: 20px;
+        }
+
+        
+        * {
+            font-family: Arial, sans-serif;
+        }
+
+        
+        p, em, h1, h2 {
+            margin: 10px 0;
+        }
+
+        
+        ol li {
+            color: green;
+        }
+
+        
+        p:hover {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tipos de selectores que entran en examen</h1>
+
+    <h2>Selector de Clase</h2>
+    <p class="resaltado">Este párrafo usa un selector de clase para cambiar su color y hacerlo en negrita</p>
+
+    <h2>Selector de Identificador</h2>
+    <p id="importante">Este párrafo usa un selector de identificador para cambiar su color a rojo y aumentar el tamaño del texto</p>
+
+    <h2>Selector Universal</h2>
+    <p>El selector universal aplica la fuente arial a todos los elementos de la página</p>
+
+    <h2>Selector de Varios Elementos</h2>
+    <p>Este párrafo demuestra cómo aplicar estilos a múltiples etiquetas a la vez</p>
+    <em>Este texto en énfasis también recibe el estilo</em>
+    <h2>Este título también forma parte de la selección</h2>
+
+    <h2>Selector de Elementos Contenidos en Otros Elementos</h2>
+    <ol>
+        <li>Este ítem de lista hereda el color verde gracias a su contenedor &lt;ol&gt;</li>
+        <li>El mismo estilo se aplica a todos los elementos &lt;li&gt; dentro de &lt;ol&gt;</li>
+    </ol>
+
+    <h2>Selector de Sobrevuelo</h2>
+    <p>Pasa el ratón sobre este párrafo y su fondo cambiará a amarillo</p>
+</body>
+</html>
